@@ -1,10 +1,14 @@
 import React from 'react';
-import perross from '../images/perro4.jpg';
+import perross4a from '../images/perro4.jpg';
 
 const Perross4 = () => {
   return (
-    <div>
-      <img src={perross} alt="foto de perro" />
+    <div className="container">
+      <div className="row">
+        <div className="col-md-6 offset-md-3" id='fg'>
+          <img src={perross4a} className="img-fluid" alt="Foto de perro" />
+        </div>
+      </div>
     </div>
   )
 }
